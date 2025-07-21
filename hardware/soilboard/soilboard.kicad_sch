@@ -2165,6 +2165,453 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_Protection:USBLC6-2SC6"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0.635 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USBLC6-2SC6"
+				(at 0.635 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+				(at 1.27 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb ethernet video"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_0"
+				(circle
+					(center -1.524 0)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -3.048) (xy -1.016 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
+						(xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.048) (xy 2.032 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_1_1"
+				(rectangle
+					(start -2.54 2.794)
+					(end 2.54 -5.334)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_Module:ESP32-S3-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4663,179 +5110,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "downloader-rescue:DDC114TU-7-F-my"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U7"
-				(at 0 10.541 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DDC114TU-7-F"
-				(at 0 8.2296 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DDC114TU-7-F-my_1_1"
-				(rectangle
-					(start -5.08 6.35)
-					(end 5.08 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -7.62 3.81 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -3.81 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 3.81 180)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -3.81 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "downloader-rescue:USB_C_Receptacle_USB2.0-Connector"
 			(pin_names
 				(offset 1.016)
@@ -5516,269 +5790,6 @@
 						)
 					)
 					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "downloader-rescue:ch340k-my"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U5"
-				(at 0 13.081 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-				)
-			)
-			(property "Value" "ch340k"
-				(at 0 10.7696 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-				)
-			)
-			(property "Footprint" "ch340k:ESSOP-10_3.9x4.9mm_P1.00mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ch340k-my_1_1"
-				(rectangle
-					(start -8.89 8.89)
-					(end 8.89 -8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -11.43 3.81 0)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 1.27 0)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 -1.27 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 -3.81 0)
-					(length 2.54)
-					(name "DTR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 -6.35 0)
-					(length 2.54)
-					(name "CTS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -11.43 90)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 3.81 180)
-					(length 2.54)
-					(name "V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 1.27 180)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -1.27 180)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -3.81 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -6.35 180)
-					(length 2.54)
-					(name "RTS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6517,6 +6528,18 @@
 		(uuid 1711b3e1-93ae-45d4-ad14-d70259d49efc)
 	)
 	(rectangle
+		(start 49.53 77.47)
+		(end 100.33 115.57)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 17710392-496f-42fb-b881-b9a6af2deb98)
+	)
+	(rectangle
 		(start 120.65 77.47)
 		(end 173.482 127.254)
 		(stroke
@@ -6565,20 +6588,8 @@
 		(uuid 4cce7dcf-545f-47a5-a22e-60de71b40a9d)
 	)
 	(rectangle
-		(start 13.97 76.835)
-		(end 100.33 119.38)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 60b5e9d6-3d1e-49c1-a93a-2d0c93c5ba60)
-	)
-	(rectangle
-		(start 13.97 120.65)
-		(end 100.33 148.59)
+		(start 15.24 151.13)
+		(end 64.77 195.58)
 		(stroke
 			(width 0)
 			(type dash)
@@ -6623,18 +6634,6 @@
 			(type none)
 		)
 		(uuid a9bcd3d7-8d49-4f80-a1c3-4a0284e51fd0)
-	)
-	(rectangle
-		(start 69.596 96.012)
-		(end 97.536 117.602)
-		(stroke
-			(width 0)
-			(type dot)
-		)
-		(fill
-			(type none)
-		)
-		(uuid bfbd145a-3055-4781-86fe-7b2b9ac32aff)
 	)
 	(rectangle
 		(start 175.895 15.24)
@@ -6786,7 +6785,7 @@
 	)
 	(text "Debug LEDs"
 		(exclude_from_sim no)
-		(at 87.122 122.428 0)
+		(at 51.562 153.416 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6832,19 +6831,6 @@
 		)
 		(uuid "b621eb88-daed-4d03-8c6b-083e2449b33a")
 	)
-	(text "Auto Reset Circuit"
-		(exclude_from_sim no)
-		(at 76.2 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "c046f29b-aa4d-44d8-b9e0-47185800502a")
-	)
 	(text "Note: Charging Current (mA) = 1100(V) / Rprog (kΩ)"
 		(exclude_from_sim no)
 		(at 115.062 67.31 0)
@@ -6856,19 +6842,6 @@
 			(justify left bottom)
 		)
 		(uuid "c5099f47-55ac-482b-8921-8fd633750edc")
-	)
-	(text "USB - UART / Programming Circuit"
-		(exclude_from_sim no)
-		(at 63.5 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf28616d-7bf0-45bb-8f44-8cbb19b39513")
 	)
 	(text "Note: Use 3.3v\nfriendly ping\nsensor"
 		(exclude_from_sim no)
@@ -6938,6 +6911,19 @@
 		)
 		(uuid "f758dc2c-12a6-411c-8ba6-57ee25fff7cf")
 	)
+	(text "ESD Protection"
+		(exclude_from_sim no)
+		(at 84.836 79.502 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "ffb04e8c-acc2-4148-ba14-03cbe64d361c")
+	)
 	(junction
 		(at 133.35 97.79)
 		(diameter 0)
@@ -6999,10 +6985,16 @@
 		(uuid "512fabfe-4cb5-4095-a74c-78d0c66318a5")
 	)
 	(junction
-		(at 67.31 135.89)
+		(at 57.15 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51e031ad-4fa2-416c-87cf-bfcafba8d46c")
+	)
+	(junction
+		(at 77.47 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5914d294-fc6d-4b66-afa0-ce0723c59c6e")
 	)
 	(junction
 		(at 213.36 100.33)
@@ -7125,16 +7117,10 @@
 		(uuid "c3c7c760-5dee-4693-afd2-acb78c96ebb6")
 	)
 	(junction
-		(at 67.31 140.97)
+		(at 57.15 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c486ff96-aa57-4cdb-841a-ac4814a5940d")
-	)
-	(junction
-		(at 62.23 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4a4340c-b079-46a3-a354-19c94e7d73bc")
 	)
 	(junction
 		(at 73.66 48.26)
@@ -7183,10 +7169,6 @@
 	(no_connect
 		(at 222.25 44.45)
 		(uuid "a51b7321-1d7b-4c58-b0c7-3fa00f460023")
-	)
-	(no_connect
-		(at 25.4 104.14)
-		(uuid "c40d1182-ce55-44e0-8bd2-ec6950f4cb94")
 	)
 	(no_connect
 		(at 41.91 63.5)
@@ -7284,7 +7266,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 135.89) (xy 67.31 135.89)
+			(xy 53.34 175.26) (xy 57.15 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7294,7 +7276,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 39.37) (xy 243.84 39.37)
+			(xy 238.76 36.83) (xy 245.11 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7351,16 +7333,6 @@
 			(type default)
 		)
 		(uuid "0c4df5f2-42b7-4d29-bb14-67ad1663d114")
-	)
-	(wire
-		(pts
-			(xy 76.2 109.22) (xy 71.12 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d3c85c0-ec94-4c6d-841d-a69ec7a1651a")
 	)
 	(wire
 		(pts
@@ -7451,6 +7423,26 @@
 			(type default)
 		)
 		(uuid "1635490a-3567-43b0-9147-cfce021e13ea")
+	)
+	(wire
+		(pts
+			(xy 59.69 88.9) (xy 59.69 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c74d01-00c3-4682-a548-8f19ee0803c8")
+	)
+	(wire
+		(pts
+			(xy 77.47 102.87) (xy 77.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ff0cd7-a7ab-4fd6-9281-a36cd13bdace")
 	)
 	(wire
 		(pts
@@ -7554,7 +7546,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 129.54) (xy 34.29 129.54)
+			(xy 35.56 168.91) (xy 24.13 168.91)
 		)
 		(stroke
 			(width 0)
@@ -7674,13 +7666,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 105.41) (xy 71.12 105.41)
+			(xy 274.32 111.76) (xy 274.32 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23adea0f-ba7e-478a-9887-e71c5e82d9e6")
+		(uuid "23503333-ee57-481b-83a8-5912ae3befdb")
 	)
 	(wire
 		(pts
@@ -7694,7 +7686,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 135.89) (xy 55.88 135.89)
+			(xy 43.18 175.26) (xy 45.72 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7814,13 +7806,13 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 34.29) (xy 243.84 34.29)
+			(xy 69.85 97.79) (xy 72.39 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28fb8c3a-a21d-4cf8-84d4-b7e394693fd6")
+		(uuid "2a67ed0c-3087-4537-b5d5-3d14d26ee29f")
 	)
 	(wire
 		(pts
@@ -7834,7 +7826,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 135.89) (xy 34.29 135.89)
+			(xy 35.56 175.26) (xy 24.13 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7851,6 +7843,16 @@
 			(type default)
 		)
 		(uuid "2b1b3860-593a-4074-8a24-3951f81b43a5")
+	)
+	(wire
+		(pts
+			(xy 82.55 95.25) (xy 88.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c025051-3052-4a72-8b4e-12eec0c1d9c7")
 	)
 	(wire
 		(pts
@@ -8034,7 +8036,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 129.54) (xy 55.88 129.54)
+			(xy 43.18 168.91) (xy 45.72 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8051,6 +8053,16 @@
 			(type default)
 		)
 		(uuid "45a7986a-b2de-4be3-9aa3-d73d26454979")
+	)
+	(wire
+		(pts
+			(xy 77.47 87.63) (xy 77.47 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48aaa17b-6dfb-4a03-911c-3aa0c07d56cd")
 	)
 	(wire
 		(pts
@@ -8094,16 +8106,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 99.06) (xy 49.53 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49e6467f-e654-46fc-9c4a-85ec746ec905")
-	)
-	(wire
-		(pts
 			(xy 213.36 100.33) (xy 224.79 100.33)
 		)
 		(stroke
@@ -8121,16 +8123,6 @@
 			(type default)
 		)
 		(uuid "4abaffc5-f301-4f19-9263-fa6124e03de5")
-	)
-	(wire
-		(pts
-			(xy 48.26 96.52) (xy 49.53 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cb6214a-dc60-40af-84f0-4d060893fe8b")
 	)
 	(wire
 		(pts
@@ -8264,6 +8256,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 100.33) (xy 59.69 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5696ddeb-0999-4687-852c-6bcc12ef60f2")
+	)
+	(wire
+		(pts
 			(xy 154.94 50.8) (xy 154.94 58.42)
 		)
 		(stroke
@@ -8291,16 +8293,6 @@
 			(type default)
 		)
 		(uuid "5744eb98-bb58-4c8b-b3a6-beb636639a8e")
-	)
-	(wire
-		(pts
-			(xy 62.23 100.33) (xy 62.23 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5986e08d-b51a-49dd-8e7d-741d66fbc265")
 	)
 	(wire
 		(pts
@@ -8394,16 +8386,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 36.83) (xy 243.84 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6300b139-4949-476e-b830-a811914e399a")
-	)
-	(wire
-		(pts
 			(xy 118.11 143.51) (xy 118.11 140.97)
 		)
 		(stroke
@@ -8424,7 +8406,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 31.75) (xy 243.84 31.75)
+			(xy 238.76 34.29) (xy 245.11 34.29)
 		)
 		(stroke
 			(width 0)
@@ -8494,16 +8476,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 93.98) (xy 50.8 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d8b1d53-2390-40a1-a6ea-edbfddd7f14c")
-	)
-	(wire
-		(pts
 			(xy 50.8 26.67) (xy 50.8 33.02)
 		)
 		(stroke
@@ -8521,6 +8493,16 @@
 			(type default)
 		)
 		(uuid "6e5758a4-c893-440f-addc-78f57e2db5f6")
+	)
+	(wire
+		(pts
+			(xy 77.47 88.9) (xy 77.47 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e609768-c543-41c7-bcdf-284ea0057d3d")
 	)
 	(wire
 		(pts
@@ -8604,16 +8586,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 93.98) (xy 21.59 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "728d84a5-a331-4dce-bf72-fe9ce70dca94")
-	)
-	(wire
-		(pts
 			(xy 121.92 143.51) (xy 118.11 143.51)
 		)
 		(stroke
@@ -8654,7 +8626,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 140.97) (xy 34.29 140.97)
+			(xy 35.56 180.34) (xy 24.13 180.34)
 		)
 		(stroke
 			(width 0)
@@ -8694,7 +8666,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 140.97) (xy 55.88 140.97)
+			(xy 43.18 180.34) (xy 45.72 180.34)
 		)
 		(stroke
 			(width 0)
@@ -8731,6 +8703,16 @@
 			(type default)
 		)
 		(uuid "79f279a1-7435-4205-879d-b3b637a3ea8f")
+	)
+	(wire
+		(pts
+			(xy 82.55 97.79) (xy 88.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a7a22a3-4033-4ce7-b00d-2cc00902371c")
 	)
 	(wire
 		(pts
@@ -8792,6 +8774,16 @@
 		)
 		(uuid "7ddad97d-1a97-488a-adee-503556b840e0")
 	)
+	(wire
+		(pts
+			(xy 69.85 95.25) (xy 72.39 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e378017-a99d-4b65-8df9-e80810164744")
+	)
 	(polyline
 		(pts
 			(xy 175.895 198.12) (xy 175.895 165.735)
@@ -8814,7 +8806,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 135.89) (xy 67.31 140.97)
+			(xy 57.15 175.26) (xy 57.15 180.34)
 		)
 		(stroke
 			(width 0)
@@ -8841,16 +8833,6 @@
 			(type default)
 		)
 		(uuid "8348e016-0260-4a9d-bf62-bf9fbfc411c3")
-	)
-	(wire
-		(pts
-			(xy 50.8 92.71) (xy 50.8 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83983a75-b80a-49af-a518-dac8b4e52bab")
 	)
 	(wire
 		(pts
@@ -8894,16 +8876,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 113.03) (xy 96.52 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "895bed56-0daf-489b-bb77-5b0f4956ae20")
-	)
-	(wire
-		(pts
 			(xy 149.86 175.26) (xy 149.86 182.88)
 		)
 		(stroke
@@ -8911,16 +8883,6 @@
 			(type default)
 		)
 		(uuid "8babfd0a-391d-4681-8f32-7ca7c828ddb6")
-	)
-	(wire
-		(pts
-			(xy 50.8 85.09) (xy 50.8 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8caf7d69-964b-4876-8570-46ef4174e9ca")
 	)
 	(wire
 		(pts
@@ -8954,13 +8916,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 96.52) (xy 59.69 96.52)
+			(xy 274.32 102.87) (xy 274.32 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e907909-5862-4f9c-949f-7d8f2c3f0fd8")
+		(uuid "8f30cd6c-8229-453e-bdf6-9832b48e5d41")
 	)
 	(wire
 		(pts
@@ -9054,7 +9016,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 29.21) (xy 243.84 29.21)
+			(xy 238.76 31.75) (xy 245.11 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9111,16 +9073,6 @@
 			(type default)
 		)
 		(uuid "9abbc470-ebf4-4cb5-98bc-54f4315189ad")
-	)
-	(wire
-		(pts
-			(xy 91.44 105.41) (xy 96.52 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b28055a-8fa0-45dc-9352-0d5b2c4c8025")
 	)
 	(wire
 		(pts
@@ -9204,26 +9156,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 99.06) (xy 20.32 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a30bc0ef-358a-4a7a-94e4-a4e6815756e5")
-	)
-	(wire
-		(pts
-			(xy 25.4 96.52) (xy 21.59 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3ee3f69-a5af-4135-9d3b-9789388174b5")
-	)
-	(wire
-		(pts
 			(xy 215.9 135.89) (xy 224.79 135.89)
 		)
 		(stroke
@@ -9251,6 +9183,16 @@
 			(type default)
 		)
 		(uuid "a4d2afad-20d4-495b-b8a2-d983f94329bb")
+	)
+	(wire
+		(pts
+			(xy 280.67 100.33) (xy 280.67 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ddd5b7-be1a-4bec-9ffb-b5177d481e5c")
 	)
 	(wire
 		(pts
@@ -9284,7 +9226,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 115.57) (xy 260.35 115.57)
+			(xy 255.27 115.57) (xy 262.89 115.57)
 		)
 		(stroke
 			(width 0)
@@ -9414,16 +9356,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 101.6) (xy 21.59 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba576f93-ec50-462a-8015-bc8781f0f599")
-	)
-	(wire
-		(pts
 			(xy 190.5 146.05) (xy 190.5 128.27)
 		)
 		(stroke
@@ -9434,7 +9366,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 129.54) (xy 67.31 135.89)
+			(xy 57.15 168.91) (xy 57.15 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9444,13 +9376,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 104.14) (xy 52.07 104.14)
+			(xy 59.69 88.9) (xy 77.47 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc534415-bd05-4891-9f52-4febc42e93ba")
+		(uuid "bc0c6437-f3cc-4a73-bf83-4dee1f7c3442")
 	)
 	(wire
 		(pts
@@ -9514,7 +9446,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 41.91) (xy 243.84 41.91)
+			(xy 238.76 39.37) (xy 245.11 39.37)
 		)
 		(stroke
 			(width 0)
@@ -9554,7 +9486,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 129.54) (xy 67.31 129.54)
+			(xy 53.34 168.91) (xy 57.15 168.91)
 		)
 		(stroke
 			(width 0)
@@ -9601,16 +9533,6 @@
 			(type default)
 		)
 		(uuid "c95fdc59-faaf-40b0-b0a2-c51b77fb9ff5")
-	)
-	(wire
-		(pts
-			(xy 76.2 113.03) (xy 71.12 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca7ea94f-7ae4-4085-aaf8-72fca11be8f6")
 	)
 	(wire
 		(pts
@@ -9744,17 +9666,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 99.06) (xy 57.15 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d649d2ca-a328-497c-a5aa-23f341649b47")
-	)
-	(wire
-		(pts
-			(xy 63.5 140.97) (xy 67.31 140.97)
+			(xy 53.34 180.34) (xy 57.15 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9894,7 +9806,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 102.87) (xy 255.27 102.87)
+			(xy 255.27 102.87) (xy 274.32 102.87)
 		)
 		(stroke
 			(width 0)
@@ -9904,7 +9816,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 110.49) (xy 255.27 110.49)
+			(xy 255.27 110.49) (xy 262.89 110.49)
 		)
 		(stroke
 			(width 0)
@@ -9944,16 +9856,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 101.6) (xy 62.23 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5e101e0-6233-4802-8cd0-8b97e1065ca5")
-	)
-	(wire
-		(pts
 			(xy 207.01 49.53) (xy 205.74 49.53)
 		)
 		(stroke
@@ -9964,23 +9866,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 113.03) (xy 255.27 113.03)
+			(xy 255.27 113.03) (xy 262.89 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e63f133e-ecaf-4863-84d9-fb76086c9239")
-	)
-	(wire
-		(pts
-			(xy 25.4 99.06) (xy 20.32 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e696d641-b1e6-4fed-87f5-085220e76ca7")
 	)
 	(wire
 		(pts
@@ -10064,16 +9956,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 101.6) (xy 62.23 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0769657-fd76-4c5d-9484-1d9aa2cdd915")
-	)
-	(wire
-		(pts
 			(xy 241.3 69.85) (xy 246.38 69.85)
 		)
 		(stroke
@@ -10094,7 +9976,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 100.33) (xy 255.27 100.33)
+			(xy 255.27 100.33) (xy 280.67 100.33)
 		)
 		(stroke
 			(width 0)
@@ -10134,16 +10016,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 109.22) (xy 96.52 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f32b49a4-cfec-450d-81ca-864644a62044")
-	)
-	(wire
-		(pts
 			(xy 138.43 180.34) (xy 134.62 180.34)
 		)
 		(stroke
@@ -10171,6 +10043,16 @@
 			(type default)
 		)
 		(uuid "f5d3af0d-f154-41d0-bcab-f4d1af950cf7")
+	)
+	(wire
+		(pts
+			(xy 280.67 111.76) (xy 280.67 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e51b26-3188-42e2-91e6-42acf8ade4ea")
 	)
 	(wire
 		(pts
@@ -10404,18 +10286,8 @@
 		)
 		(uuid "0db4e090-6c38-47ff-b14a-e325191cb283")
 	)
-	(label "IO0"
-		(at 72.39 113.03 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "100c9e77-5d2d-4207-8ac7-beda12a75287")
-	)
 	(label "LED_RED"
-		(at 34.29 135.89 0)
+		(at 24.13 175.26 0)
 		(effects
 			(font
 				(size 1 1)
@@ -10424,18 +10296,8 @@
 		)
 		(uuid "12ad6716-e5db-44ec-a99a-f098f5dd3235")
 	)
-	(label "IO20"
-		(at 238.76 36.83 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "12c9d9fd-64b7-4cfc-a578-34eca3601a0e")
-	)
 	(label "IO18"
-		(at 238.76 31.75 0)
+		(at 238.76 34.29 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10475,7 +10337,7 @@
 		(uuid "2363fb35-5745-4d23-b97a-1e37839f29c1")
 	)
 	(label "IO17"
-		(at 238.76 29.21 0)
+		(at 238.76 31.75 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10596,7 +10458,7 @@
 		(uuid "59e48029-f1a8-4802-8780-37a511eb31d7")
 	)
 	(label "IO47"
-		(at 238.76 41.91 0)
+		(at 238.76 39.37 0)
 		(effects
 			(font
 				(size 1 1)
@@ -10615,6 +10477,16 @@
 			(justify left bottom)
 		)
 		(uuid "5ad12cbd-80f7-4bdb-a221-c458e25ef7ff")
+	)
+	(label "D-"
+		(at 69.85 97.79 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ef5319a-a440-4a3e-863e-fb80ef30a16f")
 	)
 	(label "LED_RED"
 		(at 215.9 125.73 0)
@@ -10686,16 +10558,6 @@
 		)
 		(uuid "77da25a0-a857-4e61-9526-622716e15e2f")
 	)
-	(label "D-"
-		(at 21.59 96.52 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "77e408a0-d85f-44b3-a20b-2f2e72ebf79b")
-	)
 	(label "TX"
 		(at 261.62 31.75 0)
 		(effects
@@ -10705,16 +10567,6 @@
 			(justify left bottom)
 		)
 		(uuid "791c79a1-0a13-4f6a-9281-faee62d40a46")
-	)
-	(label "D+"
-		(at 21.59 93.98 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a050e2e-b0d2-4571-921f-5287ed55e210")
 	)
 	(label "MOT_2"
 		(at 215.9 120.65 0)
@@ -10776,36 +10628,6 @@
 			(justify left bottom)
 		)
 		(uuid "84946ac3-295a-4667-bf14-cde4286d4a3e")
-	)
-	(label "RTS"
-		(at 72.39 105.41 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "85b586cf-f5a8-46a2-9369-2d88e307e11b")
-	)
-	(label "TX"
-		(at 59.69 96.52 180)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "8608995e-ff69-4c94-805b-106ddce48514")
-	)
-	(label "DTR"
-		(at 72.39 109.22 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "86aa8845-653e-4b49-9fee-a3e8f8da8d0e")
 	)
 	(label "IO21"
 		(at 256.54 115.57 0)
@@ -10908,8 +10730,8 @@
 		)
 		(uuid "9c3fa743-fe39-45e8-8f41-d78485714885")
 	)
-	(label "IO19"
-		(at 260.35 110.49 180)
+	(label "D_PROC-"
+		(at 262.89 110.49 180)
 		(effects
 			(font
 				(size 1 1)
@@ -10917,16 +10739,6 @@
 			(justify right bottom)
 		)
 		(uuid "9c40dd68-fe33-4d8f-b8a4-4441665c32f0")
-	)
-	(label "IO19"
-		(at 238.76 34.29 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1924a96-48c1-41a9-8b65-3f2300732371")
 	)
 	(label "MOT_1"
 		(at 215.9 118.11 0)
@@ -10948,16 +10760,6 @@
 		)
 		(uuid "a86a3bc2-9690-43a8-8e82-0b754c90feb8")
 	)
-	(label "DTR"
-		(at 92.71 113.03 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "adcd323c-c8f1-4f7e-b867-1053a4918573")
-	)
 	(label "CLK"
 		(at 260.35 120.65 180)
 		(effects
@@ -10978,8 +10780,8 @@
 		)
 		(uuid "b8d72185-4a65-4371-b216-a917e2b72b6e")
 	)
-	(label "IO20"
-		(at 260.35 113.03 180)
+	(label "D_PROC+"
+		(at 262.89 113.03 180)
 		(effects
 			(font
 				(size 1 1)
@@ -10989,7 +10791,7 @@
 		(uuid "babf03c8-57e6-47ed-b236-4f2a64e65acc")
 	)
 	(label "IO21"
-		(at 238.76 39.37 0)
+		(at 238.76 36.83 0)
 		(effects
 			(font
 				(size 1 1)
@@ -11008,16 +10810,6 @@
 			(justify left bottom)
 		)
 		(uuid "bdd82cb1-2ec4-4339-ac52-1b2f1239218b")
-	)
-	(label "DTR"
-		(at 21.59 101.6 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "bec1c832-cd6d-4baf-90f1-8d1a4b19008e")
 	)
 	(label "IO12"
 		(at 215.9 135.89 0)
@@ -11060,16 +10852,6 @@
 		)
 		(uuid "c98eb39c-45aa-459f-a853-09fef52040da")
 	)
-	(label "EN"
-		(at 92.71 105.41 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca6a9e3d-8edb-4395-af18-9c672e23b491")
-	)
 	(label "MISO"
 		(at 260.35 123.19 180)
 		(effects
@@ -11080,18 +10862,18 @@
 		)
 		(uuid "cfb58427-a53e-49ab-ac4e-95d703a9f2f3")
 	)
-	(label "RX"
-		(at 59.69 99.06 180)
+	(label "D+"
+		(at 69.85 95.25 0)
 		(effects
 			(font
-				(size 1 1)
+				(size 1.016 1.016)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "d3739f69-18ad-4d1f-95e4-596a346b4689")
+		(uuid "d107e323-64f2-4f32-90d3-e4cc801c1a0e")
 	)
 	(label "LED_GREEN"
-		(at 34.29 129.54 0)
+		(at 24.13 168.91 0)
 		(effects
 			(font
 				(size 1 1)
@@ -11110,16 +10892,6 @@
 		)
 		(uuid "d8c64296-11a5-40b6-8d5e-d0382a4ec79d")
 	)
-	(label "RTS"
-		(at 52.07 104.14 180)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "da06b3b4-02d8-416d-8d99-cdd04da70104")
-	)
 	(label "SDA2"
 		(at 215.9 143.51 0)
 		(effects
@@ -11130,6 +10902,16 @@
 		)
 		(uuid "daac1269-36f4-43e3-8336-d882860d85db")
 	)
+	(label "D_PROC-"
+		(at 82.55 97.79 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc965765-59fc-4d2a-abfe-b195ae9ef1cb")
+	)
 	(label "BUZ2"
 		(at 261.62 69.85 0)
 		(effects
@@ -11139,6 +10921,16 @@
 			(justify left bottom)
 		)
 		(uuid "e41543dd-da6f-45bd-8f66-428771ada6bd")
+	)
+	(label "D_PROC+"
+		(at 82.55 95.25 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "e74fa932-45b9-41d6-be86-4e50d99da1db")
 	)
 	(label "BUZ1"
 		(at 261.62 67.31 0)
@@ -11151,7 +10943,7 @@
 		(uuid "e7b93f89-eec5-4ded-9180-20b12631d8e3")
 	)
 	(label "LED_BLUE"
-		(at 34.29 140.97 0)
+		(at 24.13 180.34 0)
 		(effects
 			(font
 				(size 1 1)
@@ -11179,16 +10971,6 @@
 			(justify left bottom)
 		)
 		(uuid "ed69915b-e6ce-4abe-b89f-6cd6cc69ff4a")
-	)
-	(label "RTS"
-		(at 92.71 109.22 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "edb7c33f-bcef-45bc-a64f-5a43fa1f30ca")
 	)
 	(label "SCL1"
 		(at 261.62 39.37 0)
@@ -11304,6 +11086,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 250.19 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00fcaeb2-c017-426f-95c5-2ba77f8fca28")
+		(property "Reference" "J12"
+			(at 252.73 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 252.73 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 250.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 250.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10d6e3b9-886e-437d-b861-7d310ca7b4de")
+		)
+		(pin "1"
+			(uuid "560a4ee8-3e58-4159-bf41-fc808b4c9158")
+		)
+		(pin "4"
+			(uuid "bac93039-c95a-48f0-89c4-87d04c0e967d")
+		)
+		(pin "3"
+			(uuid "d624a84e-613f-41bd-b11a-5004f340214f")
+		)
+		(instances
+			(project ""
+				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 22.86 71.12 0)
 		(unit 1)
@@ -11312,7 +11171,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "017b518c-be6e-4927-8454-bb059a106b42")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 22.86 77.47 0)
 			(effects
 				(font
@@ -11362,7 +11221,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11377,7 +11236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "079e3904-3fc2-4830-aaf4-cf9e984aeb99")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR049"
 			(at 190.5 36.83 0)
 			(effects
 				(font
@@ -11427,7 +11286,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR051")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -11442,7 +11301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "083ca73a-094c-488c-ba0b-0e7bd89ccfc3")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 50.8 48.26 0)
 			(effects
 				(font
@@ -11492,7 +11351,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -11634,7 +11493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11369698-9243-4bd8-ae67-981cc5a28204")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 95.631 40.894 0)
 			(effects
 				(font
@@ -11740,7 +11599,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11755,7 +11614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "115654fd-b8e8-4a17-bb7d-041fbe1e7ce8")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR020"
 			(at 105.41 95.25 0)
 			(effects
 				(font
@@ -11805,143 +11664,7 @@
 		(instances
 			(project ""
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 248.92 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "11806c7f-e499-4ad1-9809-4cd43941379a")
-		(property "Reference" "J12"
-			(at 248.158 44.196 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06"
-			(at 251.46 36.8299 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 248.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 248.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 248.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 248.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Link" ""
-			(at 248.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR.Part #" ""
-			(at 248.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 248.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 248.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCA Type" ""
-			(at 248.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "9fb08090-8c13-4c0a-9b0b-446e054dc2ef")
-		)
-		(pin "5"
-			(uuid "6db94619-082d-4786-9177-9134332a3ce5")
-		)
-		(pin "4"
-			(uuid "3804f0c7-f8b5-4151-bd1a-1ca58924d353")
-		)
-		(pin "2"
-			(uuid "ec1217d4-be74-4244-8ccc-23818d202eac")
-		)
-		(pin "1"
-			(uuid "12f0f398-7038-4746-b27e-a25b61a3bddc")
-		)
-		(pin "3"
-			(uuid "9bffb440-7243-4bee-a3f9-a052009dc2b3")
-		)
-		(instances
-			(project "quick_watering_esp32"
-				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "J12")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11956,7 +11679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "118665a3-e4a6-4542-a02c-6e934eee70d9")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 116.84 41.91 0)
 			(effects
 				(font
@@ -12064,7 +11787,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12079,7 +11802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11d2d7a1-b76c-4999-85ec-12b5b0417ff1")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR030"
 			(at 133.35 91.44 0)
 			(effects
 				(font
@@ -12129,7 +11852,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -12145,7 +11868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16540d9e-54ba-47ce-8e99-fb1e3c09c3b3")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR022"
 			(at 107.95 179.07 0)
 			(effects
 				(font
@@ -12195,7 +11918,7 @@
 		(instances
 			(project ""
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR024")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12326,7 +12049,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 59.69 140.97 180)
+		(at 49.53 180.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12334,7 +12057,7 @@
 		(dnp no)
 		(uuid "1785ff42-9a90-4c90-aa15-f0b3ed350712")
 		(property "Reference" "LED3"
-			(at 59.69 138.684 0)
+			(at 49.53 178.054 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12342,7 +12065,7 @@
 			)
 		)
 		(property "Value" "LED_Blue"
-			(at 59.69 138.43 0)
+			(at 49.53 177.8 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12351,7 +12074,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 59.69 140.97 0)
+			(at 49.53 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12360,7 +12083,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 140.97 0)
+			(at 49.53 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12369,7 +12092,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 59.69 140.97 0)
+			(at 49.53 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12378,7 +12101,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2288"
-			(at 59.69 140.97 0)
+			(at 49.53 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12387,7 +12110,7 @@
 			)
 		)
 		(property "LCSC Link" "https://www.lcsc.com/product-detail/LED-Indication-Discrete_Hubei-KENTO-Elec-KT-0603B_C2288.html"
-			(at 59.69 140.97 0)
+			(at 49.53 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12396,7 +12119,7 @@
 			)
 		)
 		(property "MFR.Part #" "KT-0603B"
-			(at 59.69 140.97 0)
+			(at 49.53 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12405,7 +12128,7 @@
 			)
 		)
 		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 59.69 140.97 0)
+			(at 49.53 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12414,7 +12137,7 @@
 			)
 		)
 		(property "Package" "LED0603"
-			(at 59.69 140.97 0)
+			(at 49.53 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12423,7 +12146,7 @@
 			)
 		)
 		(property "JLCA Type" "Basic"
-			(at 59.69 140.97 0)
+			(at 49.53 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12432,7 +12155,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 59.69 140.97 0)
+			(at 49.53 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12464,7 +12187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "186878c5-57b9-4481-9418-e34f450efa29")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR045"
 			(at 184.15 148.59 0)
 			(effects
 				(font
@@ -12514,7 +12237,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR047")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -12661,7 +12384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19b9cbc6-6677-4452-96e9-a34a4d1bb593")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR050"
 			(at 190.5 62.23 0)
 			(effects
 				(font
@@ -12712,7 +12435,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR052")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12846,139 +12569,6 @@
 		)
 	)
 	(symbol
-		(lib_id "downloader-rescue:DDC114TU-7-F-my")
-		(at 83.82 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1bdd1abb-0311-43fb-9f6d-e1c1b993f7a0")
-		(property "Reference" "U4"
-			(at 84.074 101.6 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Value" "2N27002DW"
-			(at 83.82 116.586 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 83.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210111800_Guangdong-Hottech-2N7002DW_C5190214.pdf"
-			(at 83.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C5190214"
-			(at 83.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/MOSFETs_Guangdong-Hottech-2N7002DW_C5190214.html"
-			(at 83.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR.Part #" "2N27002DW"
-			(at 83.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Guangdong Hottech"
-			(at 83.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-363"
-			(at 83.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCA Type" "Extended"
-			(at 83.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb54a579-4d2e-48e6-9ad9-abaf75808160")
-		)
-		(pin "2"
-			(uuid "9e04937a-c6b7-48d5-ba93-ed018b585bf2")
-		)
-		(pin "3"
-			(uuid "d54829fe-3f56-4679-aa5b-d1078236dfea")
-		)
-		(pin "4"
-			(uuid "b0dc990e-30e4-4c2f-b7d2-c9bf25a16890")
-		)
-		(pin "5"
-			(uuid "32ad5a45-d61f-4597-a863-7d663d4f4126")
-		)
-		(pin "6"
-			(uuid "ba5bcf19-59c2-4380-bfe0-a21eb2b6b2b0")
-		)
-		(instances
-			(project "quick_watering_esp32"
-				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 163.83 31.75 0)
 		(unit 1)
@@ -12987,7 +12577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c84af9f-7786-4bcc-bdb8-a4cae823fedb")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR043"
 			(at 163.83 35.56 0)
 			(effects
 				(font
@@ -13037,7 +12627,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR045")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -13052,7 +12642,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ca58c0a-560b-4666-b09e-52b159daffcc")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR061"
 			(at 240.03 158.75 0)
 			(effects
 				(font
@@ -13102,155 +12692,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "downloader-rescue:ch340k-my")
-		(at 36.83 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e32efe7-7916-4579-a41b-82b17659df24")
-		(property "Reference" "U1"
-			(at 36.83 84.709 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Value" "CH340K"
-			(at 36.83 87.0204 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "DroneV2:ESSOP-10_3.9x4.9mm_P1.00mm"
-			(at 36.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403131103_WCH-Jiangsu-Qin-Heng-CH340K_C18208922.pdf"
-			(at 36.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C18208922"
-			(at 36.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/USB-Converters_WCH-Jiangsu-Qin-Heng-CH340K_C18208922.html"
-			(at 36.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR.Part #" "CH340K"
-			(at 36.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "WCH(Jiangsu Qin Heng)"
-			(at 36.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "ESSOP-10-150mil-1mm"
-			(at 36.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCA Type" "Extended"
-			(at 36.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7408c504-2572-4b6b-b3ff-f269c050bb8b")
-		)
-		(pin "10"
-			(uuid "664bf73e-9436-4a72-90eb-8cabd6c0a755")
-		)
-		(pin "11"
-			(uuid "d9769339-7d7c-4ef0-b282-82e0f715c42a")
-		)
-		(pin "2"
-			(uuid "10165368-ecb9-4f00-9f2c-1514b093e9fd")
-		)
-		(pin "3"
-			(uuid "605c07e1-4067-42d4-a721-261fa320c773")
-		)
-		(pin "4"
-			(uuid "06e31d8b-280f-4944-ab1f-6e2e8ddc95c5")
-		)
-		(pin "5"
-			(uuid "bdd40800-9c48-4c12-9775-3bbcea821a52")
-		)
-		(pin "6"
-			(uuid "db656a73-562e-4425-b407-8b4b540fc34c")
-		)
-		(pin "7"
-			(uuid "412d07fa-0870-4309-a08b-171f73279c49")
-		)
-		(pin "8"
-			(uuid "69774f82-1165-4e6e-8369-d46b7c477657")
-		)
-		(pin "9"
-			(uuid "749da4e0-8ce8-43b6-a994-16ca0508c97a")
-		)
-		(instances
-			(project "quick_watering_esp32"
-				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "U1")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -13265,7 +12707,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f544512-c199-4fe7-99cd-4bb45c67491b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR015"
 			(at 87.63 35.56 0)
 			(effects
 				(font
@@ -13315,130 +12757,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 50.8 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2252fb24-0092-41fb-9feb-226722403b39")
-		(property "Reference" "C1"
-			(at 53.721 87.7316 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 53.848 89.408 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 51.7652 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 50.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C14663"
-			(at 50.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
-			(at 50.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR.Part #" "CC0603KRX7R9BB104"
-			(at 50.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" " YAGEO"
-			(at 50.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "C0603"
-			(at 50.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCA Type" "Basic"
-			(at 50.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06004396-2cda-406b-9860-2fa9593e9a02")
-		)
-		(pin "2"
-			(uuid "ec6769ac-a35b-4c49-b636-16c78100f41d")
-		)
-		(instances
-			(project "quick_watering_esp32"
-				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "C1")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -13454,7 +12773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2439e4f2-43f4-44dc-868a-bc851d661564")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR021"
 			(at 105.41 115.57 0)
 			(effects
 				(font
@@ -13504,7 +12823,7 @@
 		(instances
 			(project ""
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13519,7 +12838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "245cb5b8-a720-435a-a365-010c24873648")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR059"
 			(at 238.76 49.53 0)
 			(effects
 				(font
@@ -13570,7 +12889,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR061")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -13585,7 +12904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25772619-2564-4d1d-bb6b-cf16a5cee86e")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 63.6016 25.5016 0)
 			(effects
 				(font
@@ -13696,7 +13015,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -13996,7 +13315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cab2dea-cfa4-452f-ba35-c6ea85476b6b")
-		(property "Reference" "R15"
+		(property "Reference" "R13"
 			(at 192.278 38.2016 0)
 			(effects
 				(font
@@ -14104,7 +13423,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R15")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14112,7 +13431,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 59.69 129.54 180)
+		(at 49.53 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14120,7 +13439,7 @@
 		(dnp no)
 		(uuid "2ea804a2-5f12-41a2-a477-ba6838668327")
 		(property "Reference" "LED1"
-			(at 59.69 127.254 0)
+			(at 49.53 166.624 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14128,7 +13447,7 @@
 			)
 		)
 		(property "Value" "LED_Green"
-			(at 59.6265 125.984 0)
+			(at 49.4665 165.354 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14137,7 +13456,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 59.69 129.54 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14146,7 +13465,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 129.54 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14155,7 +13474,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 59.69 129.54 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14164,7 +13483,7 @@
 			)
 		)
 		(property "LCSC Part #" "C12065"
-			(at 59.69 129.54 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14173,7 +13492,7 @@
 			)
 		)
 		(property "LCSC Link" "https://www.lcsc.com/product-detail/LED-Indication-Discrete_Lite-On-LTST-C193TGKT-5A_C12065.html"
-			(at 59.69 129.54 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14182,7 +13501,7 @@
 			)
 		)
 		(property "MFR.Part #" "LTST-C193TGKT-5A"
-			(at 59.69 129.54 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14191,7 +13510,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On"
-			(at 59.69 129.54 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14200,7 +13519,7 @@
 			)
 		)
 		(property "Package" "LED0603"
-			(at 59.69 129.54 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14209,7 +13528,7 @@
 			)
 		)
 		(property "JLCA Type" "Extended"
-			(at 59.69 129.54 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14218,7 +13537,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 59.69 129.54 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14250,7 +13569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2eceb578-2125-4709-abc3-8f1d5a652e2b")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR047"
 			(at 185.42 100.33 0)
 			(effects
 				(font
@@ -14300,7 +13619,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR049")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -14579,7 +13898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30c9972d-89c0-4931-b2e3-77045680e550")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR051"
 			(at 191.77 123.19 0)
 			(effects
 				(font
@@ -14629,7 +13948,7 @@
 		(instances
 			(project "duo_motor_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR053")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -14644,7 +13963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31652122-650e-4f40-8360-56f55beaef84")
-		(property "Reference" "R17"
+		(property "Reference" "R15"
 			(at 188.468 123.698 90)
 			(effects
 				(font
@@ -14752,7 +14071,7 @@
 		(instances
 			(project "duo_motor_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R17")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -14768,7 +14087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32feaed1-1005-49b8-a4e9-b5dde2e77850")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR037"
 			(at 149.86 179.07 0)
 			(effects
 				(font
@@ -14818,7 +14137,7 @@
 		(instances
 			(project "duo_motor_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR039")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -14833,7 +14152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3438a875-0a77-4bf7-a42c-134a4c177cba")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR019"
 			(at 96.52 57.15 0)
 			(effects
 				(font
@@ -14883,7 +14202,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR021")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -14898,7 +14217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "344dec88-ec39-45f1-92eb-ba7602ea8820")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR046"
 			(at 184.15 163.83 0)
 			(effects
 				(font
@@ -14948,130 +14267,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 53.34 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "352bd057-62c8-4c60-a559-3faee8633e71")
-		(property "Reference" "R7"
-			(at 48.514 95.504 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 52.578 96.52 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 53.34 94.742 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 53.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C21190"
-			(at 53.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.html"
-			(at 53.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR.Part #" "0603WAF1001T5E"
-			(at 53.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 53.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "R0603"
-			(at 53.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCA Type" "Basic"
-			(at 53.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d07012c-a996-41d0-89a6-7f5d62b51fb8")
-		)
-		(pin "2"
-			(uuid "dfa93e34-7720-4aa2-a46f-7e05c41b2a97")
-		)
-		(instances
-			(project "quick_watering_esp32"
-				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R7")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -15086,7 +14282,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3957b42e-1733-49e2-ad7b-f076be43e7a4")
-		(property "Reference" "R23"
+		(property "Reference" "R21"
 			(at 226.06 35.7886 0)
 			(effects
 				(font
@@ -15194,7 +14390,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R23")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -15209,7 +14405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a9422b0-85ca-43ea-a382-2541213b6467")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR039"
 			(at 151.13 64.77 0)
 			(effects
 				(font
@@ -15259,7 +14455,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR041")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -15413,7 +14609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d96aaf4-e868-4b6f-b934-680ec362ba51")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 136.271 91.5416 0)
 			(effects
 				(font
@@ -15521,7 +14717,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -15735,7 +14931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42a47778-dea1-4869-b83a-e8b42d9a5a96")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 132.08 125.73 0)
 			(effects
 				(font
@@ -15785,7 +14981,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15793,7 +14989,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 59.69 135.89 180)
+		(at 49.53 175.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15801,7 +14997,7 @@
 		(dnp no)
 		(uuid "42d98e1b-8f98-4f88-90da-33e5b3a61ae0")
 		(property "Reference" "LED2"
-			(at 59.69 133.604 0)
+			(at 49.53 172.974 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15809,7 +15005,7 @@
 			)
 		)
 		(property "Value" "LED_Red"
-			(at 59.69 132.842 0)
+			(at 49.53 172.212 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15818,7 +15014,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 59.69 135.89 0)
+			(at 49.53 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15827,7 +15023,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 135.89 0)
+			(at 49.53 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15836,7 +15032,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 59.69 135.89 0)
+			(at 49.53 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15845,7 +15041,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2286"
-			(at 59.69 135.89 0)
+			(at 49.53 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15854,7 +15050,7 @@
 			)
 		)
 		(property "LCSC Link" "https://www.lcsc.com/product-detail/LED-Indication-Discrete_Hubei-KENTO-Elec-KT-0603R_C2286.html"
-			(at 59.69 135.89 0)
+			(at 49.53 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15863,7 +15059,7 @@
 			)
 		)
 		(property "MFR.Part #" "KT-0603R"
-			(at 59.69 135.89 0)
+			(at 49.53 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15872,7 +15068,7 @@
 			)
 		)
 		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 59.69 135.89 0)
+			(at 49.53 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15881,7 +15077,7 @@
 			)
 		)
 		(property "Package" "LED0603"
-			(at 59.69 135.89 0)
+			(at 49.53 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15890,7 +15086,7 @@
 			)
 		)
 		(property "JLCA Type" "Extended"
-			(at 59.69 135.89 0)
+			(at 49.53 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15899,7 +15095,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 59.69 135.89 0)
+			(at 49.53 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15932,7 +15128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "448951df-e6d9-49d4-8cfd-d6c5dd1d2345")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 242.2241 92.71 0)
 			(effects
 				(font
@@ -16157,130 +15353,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 53.34 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "455935dc-dd7c-466c-980d-2e42ac0a550b")
-		(property "Reference" "R8"
-			(at 48.006 98.044 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 52.578 99.06 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 53.34 97.282 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 53.34 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C21190"
-			(at 53.34 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.html"
-			(at 53.34 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR.Part #" "0603WAF1001T5E"
-			(at 53.34 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 53.34 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "R0603"
-			(at 53.34 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCA Type" "Basic"
-			(at 53.34 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1c334f3-66fc-4329-ba47-3e9e38eaff17")
-		)
-		(pin "2"
-			(uuid "606eff70-3402-4651-bca0-de96d1eced35")
-		)
-		(instances
-			(project "quick_watering_esp32"
-				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R8")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -16295,7 +15368,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45fdae37-60b2-47e2-be10-da6ebe33ec0a")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 113.03 59.69 0)
 			(effects
 				(font
@@ -16345,7 +15418,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -16361,7 +15434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47c61e25-6474-46da-aa4e-69c91d95f228")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 180.594 151.892 0)
 			(effects
 				(font
@@ -16469,7 +15542,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -16484,7 +15557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "494e528a-5d2f-4540-8654-3f18884499b5")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR048"
 			(at 185.42 109.22 0)
 			(effects
 				(font
@@ -16534,7 +15607,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR050")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -16690,7 +15763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cf53d92-b796-43e8-a7b5-a7e1b5f993ae")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR058"
 			(at 234.95 59.69 0)
 			(effects
 				(font
@@ -16740,7 +15813,77 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR060")
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 59.69 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d91ff15-453d-4a84-bb58-71ba57045c9d")
+		(property "Reference" "C1"
+			(at 63.5 95.2499 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 63.5 97.7899 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 60.6552 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf5b6338-a400-41b8-a570-3662cb68e0c4")
+		)
+		(pin "2"
+			(uuid "ed8ef2b4-5ec5-4009-8dcb-18b0c5cb309e")
+		)
+		(instances
+			(project ""
+				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -16755,7 +15898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e8a6130-d8fe-48f8-ac0a-25f1cb6023e6")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR055"
 			(at 219.71 93.98 0)
 			(effects
 				(font
@@ -16805,7 +15948,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR057")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -16894,7 +16037,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52f6943a-5578-405e-8cad-9fc799013844")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 45.72 68.58 0)
 			(effects
 				(font
@@ -16944,7 +16087,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -16959,7 +16102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "530455d4-ecab-4875-849f-d179ff050d49")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR054"
 			(at 213.36 116.84 0)
 			(effects
 				(font
@@ -17009,7 +16152,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR056")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -17024,7 +16167,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5436e2ac-56d5-4213-a73f-a78bdaadb984")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 43.18 36.83 0)
 			(effects
 				(font
@@ -17074,72 +16217,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56cc1367-95ab-46c5-bb7f-081f2412edbe")
-		(property "Reference" "#PWR08"
-			(at 50.8 77.47 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.673 79.4258 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9116b9f6-28f4-49bd-90b5-d47ca0cdef15")
-		)
-		(instances
-			(project "quick_watering_esp32"
-				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR08")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -17290,7 +16368,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58eb6618-5fd6-4483-b674-5cd33894e86a")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR063"
 			(at 267.97 124.46 0)
 			(effects
 				(font
@@ -17340,7 +16418,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR065")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -17355,7 +16433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a25f0c0-c126-478c-b7d5-b65a87791183")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR040"
 			(at 152.4 195.58 0)
 			(effects
 				(font
@@ -17405,7 +16483,7 @@
 		(instances
 			(project "duo_motor_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR042")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -17420,7 +16498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5be5ad56-4d29-41db-90e4-447e6f83c8ef")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR035"
 			(at 140.97 125.73 0)
 			(effects
 				(font
@@ -17470,7 +16548,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR037")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -17485,7 +16563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b19e203-2d74-4613-a8a2-54e733ed3e3a")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 161.671 91.5416 0)
 			(effects
 				(font
@@ -17593,72 +16671,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 62.23 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b588d8d-231b-4e3e-a7b0-025f9c1803fe")
-		(property "Reference" "#PWR011"
-			(at 62.23 104.14 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 62.23 96.774 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 62.23 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b02fc251-72d9-4cda-baf2-56480afbcbbb")
-		)
-		(instances
-			(project "quick_watering_esp32"
-				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR011")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -17674,7 +16687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f6d733d-2352-45cc-b05c-fc6a62933eb3")
-		(property "Reference" "R18"
+		(property "Reference" "R16"
 			(at 195.072 123.698 90)
 			(effects
 				(font
@@ -17782,7 +16795,7 @@
 		(instances
 			(project "duo_motor_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R18")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -17797,7 +16810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70537b4b-edd0-4717-9e16-383fcbde9dbc")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 87.63 49.53 0)
 			(effects
 				(font
@@ -17847,7 +16860,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -17863,7 +16876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "711c5ab5-28ce-400a-92a5-e2b708a57524")
-		(property "Reference" "R20"
+		(property "Reference" "R18"
 			(at 206.502 123.698 90)
 			(effects
 				(font
@@ -17971,7 +16984,7 @@
 		(instances
 			(project "duo_motor_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R20")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -17986,7 +16999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7327d702-c6a9-4573-9c9c-b59d34762c4a")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR056"
 			(at 224.79 35.56 0)
 			(effects
 				(font
@@ -18036,73 +17049,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 20.32 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74232038-b78f-4463-b712-13371959eea7")
-		(property "Reference" "#PWR01"
-			(at 20.32 110.49 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 20.447 107.3912 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a45f3b26-5843-48da-8658-c6a34c58ea01")
-		)
-		(instances
-			(project "quick_watering_esp32"
-				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR01")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -18176,139 +17123,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 62.23 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7959d2bc-932d-4a99-a3ae-f5aa5e96995a")
-		(property "Reference" "C3"
-			(at 65.151 105.5116 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 65.278 107.188 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 63.1952 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 62.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C14663"
-			(at 62.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
-			(at 62.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR.Part #" "CC0603KRX7R9BB104"
-			(at 62.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" " YAGEO"
-			(at 62.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "C0603"
-			(at 62.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCA Type" "Basic"
-			(at 62.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9b49993-29a0-4999-8688-415f3a7350ec")
-		)
-		(pin "2"
-			(uuid "dd676ec2-604e-4a57-88d8-26b0aab427be")
-		)
-		(instances
-			(project "quick_watering_esp32"
-				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 67.31 140.97 0)
+		(at 57.15 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7a0e6c35-a6a8-4ce4-9f05-f4bf5cb88c3e")
-		(property "Reference" "#PWR014"
-			(at 67.31 147.32 0)
+		(property "Reference" "#PWR06"
+			(at 57.15 186.69 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18317,7 +17141,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.183 144.6022 0)
+			(at 57.023 183.9722 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18325,7 +17149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 140.97 0)
+			(at 57.15 180.34 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18334,7 +17158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 140.97 0)
+			(at 57.15 180.34 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18343,7 +17167,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 140.97 0)
+			(at 57.15 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18357,7 +17181,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR014")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -18504,7 +17328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f2bbfd0-5421-47db-be52-d90c4cc8812d")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR026"
 			(at 118.11 35.56 0)
 			(effects
 				(font
@@ -18554,7 +17378,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR028")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -18569,7 +17393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83f39924-d51b-4483-92f0-bab0e316acff")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR018"
 			(at 92.71 49.53 0)
 			(effects
 				(font
@@ -18619,73 +17443,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 62.23 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84292376-f5d6-41a0-bdc1-06c0b2f3b1af")
-		(property "Reference" "#PWR012"
-			(at 62.23 116.84 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.262 114.046 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3380bf58-23f4-4e7e-bb72-a90c96f98c2b")
-		)
-		(instances
-			(project "quick_watering_esp32"
-				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR012")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -18700,7 +17458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88a98a9b-2ba2-4092-8254-ced6ed1cca7b")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 145.034 38.862 90)
 			(effects
 				(font
@@ -18808,7 +17566,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -18823,7 +17581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b6c946a-0ab1-49b0-a479-85d9ba73c2d7")
-		(property "Reference" "R21"
+		(property "Reference" "R19"
 			(at 211.328 94.488 90)
 			(effects
 				(font
@@ -18931,7 +17689,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R21")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -18946,7 +17704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d4e65e1-150e-4fa5-991e-25538f1a27b6")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 60.96 48.26 0)
 			(effects
 				(font
@@ -18996,7 +17754,73 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR010")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 77.47 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d77fba9-350e-456e-ae32-8bbb6859accd")
+		(property "Reference" "#PWR013"
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 77.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89badaf2-b109-4ba1-9ab3-2ebf5595a9b3")
+		)
+		(instances
+			(project ""
+				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -19011,7 +17835,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8db6e211-1320-43f7-a7f0-1720ffbe4024")
-		(property "Reference" "R19"
+		(property "Reference" "R17"
 			(at 199.898 123.698 90)
 			(effects
 				(font
@@ -19119,7 +17943,7 @@
 		(instances
 			(project "duo_motor_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R19")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -19134,7 +17958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93a2a448-e1fe-4fe8-9be2-99f681b39181")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR033"
 			(at 135.89 195.58 0)
 			(effects
 				(font
@@ -19184,7 +18008,7 @@
 		(instances
 			(project "duo_motor_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR035")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -19200,7 +18024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96a2e3c4-4790-4e93-9af8-7a1f31f8d56e")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 212.979 107.5436 0)
 			(effects
 				(font
@@ -19308,7 +18132,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -19324,7 +18148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99169b26-fc17-4141-a07d-3942cb20684b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 133.35 179.07 0)
 			(effects
 				(font
@@ -19374,7 +18198,7 @@
 		(instances
 			(project ""
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -19520,7 +18344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bdebfa1-2208-41e7-b0a4-e0e355251eb4")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 186.944 151.638 0)
 			(effects
 				(font
@@ -19628,7 +18452,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -19643,7 +18467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d56c13e-bec9-4233-8a52-c1e1fc58f075")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR017"
 			(at 88.9 168.91 0)
 			(effects
 				(font
@@ -19693,7 +18517,7 @@
 		(instances
 			(project ""
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -19831,7 +18655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fb92e7a-b247-49b7-9964-b20e486674cc")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR062"
 			(at 243.84 59.69 0)
 			(effects
 				(font
@@ -19881,6 +18705,71 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a322cc47-77bd-4b8c-af80-db737fdff976")
+		(property "Reference" "#PWR064"
+			(at 274.32 119.38 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 116.84 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 113.03 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 113.03 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "358107a8-0383-4bff-ad5d-ee8b44ea6e1c")
+		)
+		(instances
+			(project "soilboard"
+				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
 					(reference "#PWR064")
 					(unit 1)
 				)
@@ -19897,7 +18786,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a651c97b-1b86-41eb-ac20-c123cf7565ad")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 150.114 55.372 0)
 			(effects
 				(font
@@ -20005,7 +18894,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -20020,7 +18909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a773e4db-bb50-4140-a177-7e9b50364a30")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR038"
 			(at 151.13 52.07 0)
 			(effects
 				(font
@@ -20070,7 +18959,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR040")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -20086,7 +18975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8cbefe9-7e35-43da-b912-cc8ac95ea29b")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR025"
 			(at 116.84 143.51 0)
 			(effects
 				(font
@@ -20136,7 +19025,7 @@
 		(instances
 			(project ""
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR027")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -20287,7 +19176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af782747-7292-4e35-8900-84b5ca64526d")
-		(property "Reference" "R16"
+		(property "Reference" "R14"
 			(at 192.278 48.3616 0)
 			(effects
 				(font
@@ -20395,73 +19284,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 36.83 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b0863d92-5137-498b-bc57-926d9f85f7bb")
-		(property "Reference" "#PWR03"
-			(at 36.83 115.57 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.957 112.4712 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b860e8c-b73c-490d-a97d-73be54a8f3e8")
-		)
-		(instances
-			(project "quick_watering_esp32"
-				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR03")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -20476,7 +19299,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0f037c2-4058-473d-852c-de71a8954eaa")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR027"
 			(at 119.38 158.75 0)
 			(effects
 				(font
@@ -20526,7 +19349,7 @@
 		(instances
 			(project "duo_motor_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR029")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -20542,7 +19365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b459b672-1b97-4f96-9ad5-08b90634a4aa")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR032"
 			(at 135.89 143.51 0)
 			(effects
 				(font
@@ -20592,7 +19415,7 @@
 		(instances
 			(project "duo_motor_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR034")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -20607,7 +19430,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5c629da-f03b-49e7-b8ed-dad79c804114")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR028"
 			(at 132.08 55.88 0)
 			(effects
 				(font
@@ -20657,7 +19480,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR030")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -20672,7 +19495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5d5ade1-78d3-41ff-8a7e-6d6d0cd4b6b8")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR04"
 			(at 48.26 68.58 0)
 			(effects
 				(font
@@ -20722,7 +19545,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR06")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -20861,7 +19684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b91a1a12-8517-4534-b217-e95a0b0b3c7d")
-		(property "Reference" "R11"
+		(property "Reference" "R9"
 			(at 130.048 113.538 90)
 			(effects
 				(font
@@ -20969,7 +19792,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R11")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -20984,7 +19807,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc3c64f2-a5cd-4e3a-94d6-2395e9dc5811")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR010"
 			(at 64.77 36.83 0)
 			(effects
 				(font
@@ -21034,7 +19857,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR013")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -21050,7 +19873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c05973c2-90c3-4626-a6cb-70772fcbe34d")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 91.694 40.132 0)
 			(effects
 				(font
@@ -21158,7 +19981,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -21248,7 +20071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2b42de2-046a-4859-9ede-16fb7c6e37d6")
-		(property "Reference" "R25"
+		(property "Reference" "R23"
 			(at 271.272 124.968 90)
 			(effects
 				(font
@@ -21356,7 +20179,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R25")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -21495,7 +20318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c49de2d2-1592-4a16-a6c9-2d9ff905f5ca")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR041"
 			(at 157.48 125.73 0)
 			(effects
 				(font
@@ -21545,7 +20368,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR043")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -21561,7 +20384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4a5555f-cbf1-4bb8-b2b8-4c30f9287669")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 43.942 55.9816 0)
 			(effects
 				(font
@@ -21669,7 +20492,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -21806,7 +20629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8e52eb5-d50d-4bec-94d1-4c713578c301")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 79.502 43.688 0)
 			(effects
 				(font
@@ -21914,7 +20737,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -21929,7 +20752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cae131c1-7416-40ea-996a-f9ae16ec07b2")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR060"
 			(at 240.03 93.98 0)
 			(effects
 				(font
@@ -21979,7 +20802,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR062")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -21994,7 +20817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cff8ab4c-59f3-4758-923b-2e2153fd9fee")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 144.78 35.56 0)
 			(effects
 				(font
@@ -22044,7 +20867,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -22127,6 +20950,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 274.32 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1251684-8a7f-4860-9d62-2d82e7c73b03")
+		(property "Reference" "R24"
+			(at 272.288 107.188 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 274.32 106.172 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 276.098 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 274.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C25804"
+			(at 274.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.html"
+			(at 274.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "0603WAF1002T5E"
+			(at 274.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 274.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R0603"
+			(at 274.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCA Type" "Basic"
+			(at 274.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ada8cd45-d1d6-4e3f-94bc-b190bb61d53a")
+		)
+		(pin "2"
+			(uuid "5c7f8c1b-272f-4f18-b834-3ef13f730aea")
+		)
+		(instances
+			(project "soilboard"
+				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 107.95 189.23 0)
 		(unit 1)
@@ -22135,7 +21081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6246e4e-2a40-405f-8c5f-74d67ba3ae6f")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR023"
 			(at 107.95 195.58 0)
 			(effects
 				(font
@@ -22185,7 +21131,7 @@
 		(instances
 			(project "duo_motor_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR025")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -22200,7 +21146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d65d7757-a270-4fd3-9e42-9bd144a8a182")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 155.448 113.538 90)
 			(effects
 				(font
@@ -22308,7 +21254,72 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R14")
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d71dc53f-eca1-4598-8a06-64c5e550cff9")
+		(property "Reference" "#PWR014"
+			(at 77.47 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82bd5164-abdf-4817-becd-e84ebc6e27a1")
+		)
+		(instances
+			(project ""
+				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -22461,6 +21472,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 280.67 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7cac1b3-3d2e-4dc6-9b26-90020a845711")
+		(property "Reference" "R25"
+			(at 278.638 107.188 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 280.67 106.172 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 282.448 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 280.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C25804"
+			(at 280.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.html"
+			(at 280.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "0603WAF1002T5E"
+			(at 280.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 280.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R0603"
+			(at 280.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCA Type" "Basic"
+			(at 280.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5322bec2-7309-4ccd-b3ec-0692c52db611")
+		)
+		(pin "2"
+			(uuid "be68b77e-c10c-44dd-9060-dab5b87836a7")
+		)
+		(instances
+			(project "soilboard"
+				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 138.43 152.4 0)
 		(unit 1)
@@ -22469,7 +21603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dace55d2-0141-46cc-a54e-89dbd2de1c1d")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR034"
 			(at 138.43 158.75 0)
 			(effects
 				(font
@@ -22519,7 +21653,7 @@
 		(instances
 			(project "duo_motor_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -22534,7 +21668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db0d4504-f523-4bcf-8b75-1c3d9e2660d0")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 50.038 55.9816 0)
 			(effects
 				(font
@@ -22642,7 +21776,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -22731,7 +21865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e033b0f5-43ff-43ad-b9a2-339b236782b7")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR011"
 			(at 72.39 182.88 0)
 			(effects
 				(font
@@ -22781,7 +21915,7 @@
 		(instances
 			(project "duo_motor_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR015")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -22796,7 +21930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0f0d081-412e-4797-9e80-0c1539b391fd")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 60.96 24.13 0)
 			(effects
 				(font
@@ -22846,7 +21980,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -23057,7 +22191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e22ce51a-e1ba-4da9-ac3a-5e66e932e641")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR012"
 			(at 73.66 55.88 0)
 			(effects
 				(font
@@ -23107,7 +22241,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR016")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -23115,15 +22249,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 140.97 270)
+		(at 39.37 180.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e2c37905-025d-4dbf-b724-a79376b9fc0b")
-		(property "Reference" "R5"
-			(at 44.196 139.954 90)
+		(property "Reference" "R3"
+			(at 34.036 179.324 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23132,7 +22266,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 48.768 140.97 90)
+			(at 38.608 180.34 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23141,7 +22275,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 49.53 139.192 90)
+			(at 39.37 178.562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23150,7 +22284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 140.97 0)
+			(at 39.37 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23159,7 +22293,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 140.97 0)
+			(at 39.37 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23168,7 +22302,7 @@
 			)
 		)
 		(property "LCSC Part #" "C21190"
-			(at 49.53 140.97 0)
+			(at 39.37 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23177,7 +22311,7 @@
 			)
 		)
 		(property "LCSC Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.html"
-			(at 49.53 140.97 0)
+			(at 39.37 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23186,7 +22320,7 @@
 			)
 		)
 		(property "MFR.Part #" "0603WAF1001T5E"
-			(at 49.53 140.97 0)
+			(at 39.37 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23195,7 +22329,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 49.53 140.97 0)
+			(at 39.37 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23204,7 +22338,7 @@
 			)
 		)
 		(property "Package" "R0603"
-			(at 49.53 140.97 0)
+			(at 39.37 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23213,7 +22347,7 @@
 			)
 		)
 		(property "JLCA Type" "Basic"
-			(at 49.53 140.97 0)
+			(at 39.37 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23230,7 +22364,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -23412,7 +22546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e397dd5d-7350-4e03-bad0-1503ece9fd0c")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 75.565 26.924 0)
 			(effects
 				(font
@@ -23527,7 +22661,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -23542,7 +22676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e56bdfab-422e-4e72-892d-a9767c4dd3ce")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR052"
 			(at 203.2 123.19 0)
 			(effects
 				(font
@@ -23592,7 +22726,157 @@
 		(instances
 			(project "duo_motor_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR054")
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 77.47 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e708477c-b691-499f-abd1-ec13d55a6117")
+		(property "Reference" "U3"
+			(at 79.1211 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 79.1211 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 78.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 78.74 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 77.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9795965d-d0d2-4088-95df-c68a911f362b")
+		)
+		(pin "1"
+			(uuid "7b9f4d28-5678-4c1a-9fe0-bb1a83e8d628")
+		)
+		(pin "2"
+			(uuid "11b6a2db-89dd-4be6-876c-33783d2ba290")
+		)
+		(pin "4"
+			(uuid "3955298e-a514-4b13-bf35-d1aa5f12892a")
+		)
+		(pin "5"
+			(uuid "eb7264e7-469e-4654-9c31-e5caaf9e32a0")
+		)
+		(pin "6"
+			(uuid "57167e4f-ffb0-4de3-aa6f-00f8316181ba")
+		)
+		(instances
+			(project ""
+				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e73754b6-970b-41ed-af0f-ff643234fcb5")
+		(property "Reference" "#PWR07"
+			(at 59.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5f918b6-075d-405b-8e64-b3fe40fc3eb7")
+		)
+		(instances
+			(project "soilboard"
+				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -23667,15 +22951,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 135.89 270)
+		(at 39.37 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e9835e5e-fbd6-46d2-ba35-2bbc61482d7a")
-		(property "Reference" "R4"
-			(at 43.942 134.874 90)
+		(property "Reference" "R2"
+			(at 33.782 174.244 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23684,7 +22968,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 48.768 135.89 90)
+			(at 38.608 175.26 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23693,7 +22977,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 49.53 134.112 90)
+			(at 39.37 173.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23702,7 +22986,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 135.89 0)
+			(at 39.37 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23711,7 +22995,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 135.89 0)
+			(at 39.37 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23720,7 +23004,7 @@
 			)
 		)
 		(property "LCSC Part #" "C21190"
-			(at 49.53 135.89 0)
+			(at 39.37 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23729,7 +23013,7 @@
 			)
 		)
 		(property "LCSC Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.html"
-			(at 49.53 135.89 0)
+			(at 39.37 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23738,7 +23022,7 @@
 			)
 		)
 		(property "MFR.Part #" "0603WAF1001T5E"
-			(at 49.53 135.89 0)
+			(at 39.37 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23747,7 +23031,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 49.53 135.89 0)
+			(at 39.37 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23756,7 +23040,7 @@
 			)
 		)
 		(property "Package" "R0603"
-			(at 49.53 135.89 0)
+			(at 39.37 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23765,7 +23049,7 @@
 			)
 		)
 		(property "JLCA Type" "Basic"
-			(at 49.53 135.89 0)
+			(at 39.37 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23782,7 +23066,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -23797,7 +23081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb369f81-1026-464f-9b20-377f2f58da87")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR042"
 			(at 158.75 91.44 0)
 			(effects
 				(font
@@ -23847,7 +23131,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR044")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -23862,7 +23146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebdcf303-b845-405a-a10c-ec4525ac4e91")
-		(property "Reference" "R24"
+		(property "Reference" "R22"
 			(at 264.668 124.968 90)
 			(effects
 				(font
@@ -23970,7 +23254,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R24")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -23985,7 +23269,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee56510d-d5c0-48bc-9419-489ef6632a85")
-		(property "Reference" "R22"
+		(property "Reference" "R20"
 			(at 217.678 94.488 90)
 			(effects
 				(font
@@ -24093,7 +23377,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R22")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -24174,7 +23458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0b3e2cf-ba7b-4747-8d2f-0369b8ef0f7f")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR053"
 			(at 213.36 93.98 0)
 			(effects
 				(font
@@ -24224,7 +23508,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR055")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -24239,7 +23523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5dd9f56-706c-46e3-811d-aa5b0c3c44e8")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 145.542 34.544 90)
 			(effects
 				(font
@@ -24347,7 +23631,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -24362,7 +23646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6393603-94cb-4b78-99c8-5cc07303e0ce")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR044"
 			(at 166.37 125.73 0)
 			(effects
 				(font
@@ -24412,7 +23696,72 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR046")
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 280.67 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f67ba92b-2da1-4b8b-83da-aeb7b4dd59cd")
+		(property "Reference" "#PWR065"
+			(at 280.67 119.38 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.67 116.84 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 113.03 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 113.03 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 280.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed21afe8-dbd0-4a40-a747-0f5309bdb47c")
+		)
+		(instances
+			(project "soilboard"
+				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -24427,7 +23776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f69026a1-0628-4b7c-9252-08105dd88e94")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 85.725 39.878 0)
 			(effects
 				(font
@@ -24535,7 +23884,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -24679,15 +24028,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 129.54 270)
+		(at 39.37 168.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fc218059-5a7d-467c-a0f1-5fe8f0c07f84")
-		(property "Reference" "R3"
-			(at 43.942 128.524 90)
+		(property "Reference" "R1"
+			(at 33.782 167.894 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -24696,7 +24045,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 48.768 129.54 90)
+			(at 38.608 168.91 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -24705,7 +24054,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 49.53 127.762 90)
+			(at 39.37 167.132 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24714,7 +24063,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 129.54 0)
+			(at 39.37 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24723,7 +24072,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 129.54 0)
+			(at 39.37 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24732,7 +24081,7 @@
 			)
 		)
 		(property "LCSC Part #" "C21190"
-			(at 49.53 129.54 0)
+			(at 39.37 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24741,7 +24090,7 @@
 			)
 		)
 		(property "LCSC Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.html"
-			(at 49.53 129.54 0)
+			(at 39.37 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24750,7 +24099,7 @@
 			)
 		)
 		(property "MFR.Part #" "0603WAF1001T5E"
-			(at 49.53 129.54 0)
+			(at 39.37 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24759,7 +24108,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 49.53 129.54 0)
+			(at 39.37 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24768,7 +24117,7 @@
 			)
 		)
 		(property "Package" "R0603"
-			(at 49.53 129.54 0)
+			(at 39.37 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24777,7 +24126,7 @@
 			)
 		)
 		(property "JLCA Type" "Basic"
-			(at 49.53 129.54 0)
+			(at 39.37 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24794,7 +24143,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -24809,7 +24158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdb76d30-47ec-4efb-9071-cc19b7b95a8d")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR057"
 			(at 224.79 66.04 0)
 			(effects
 				(font
@@ -24859,7 +24208,7 @@
 		(instances
 			(project "quick_watering_esp32"
 				(path "/30dd52c1-c928-4f26-9142-806774348c6b"
-					(reference "#PWR059")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
