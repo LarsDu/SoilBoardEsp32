@@ -14,6 +14,14 @@ Setup with:
  - 2 optional servo headers
  - An optional ping sensor header for water level detection
 
+This is my first-time PCB design and assembly attempt. This repo may be updated as I make more progress on actual construction.
+
+# Getting started
+
+Board schematics can be opened in KiCad under [`hardware/soilboard/soilboard.kicad_pro`](hardware/soilboard/soilboard.kicad_pro).
+
+Gerber files for each production version can be found under [`hardware/soilboard/production/`](hardware/soilboard/production/)
+
 ## Images
 
 ![PCB appearance](static/soilboard_png.png)
