@@ -74,7 +74,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "soilboard_v0.2/")
+			(outputdirectory "soilboard_v0.3/")
 		)
 	)
 	(net 0 "")
